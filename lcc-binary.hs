@@ -1,5 +1,5 @@
 -- Largest Connected Component Algorithm
--- Callum Gill : 21117043
+-- Callum Gill
 
 -- PRESENTED SOLUTION:
 -- Entry point function is: nlcc l v
