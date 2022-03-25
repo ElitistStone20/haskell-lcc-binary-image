@@ -1,16 +1,6 @@
 -- Largest Connected Component Algorithm
 -- Callum Gill
 
--- PRESENTED SOLUTION:
--- Entry point function is: nlcc l v
--- Map binary array to structure like [(Cell,Int)] making further computation simpler
--- Retrieve all components in the binary image
-     -- Check cells up, down, left and right of the current cell to see if they're in range and have a desired colour value
-     -- Construct the array of components
--- Remove duplicate components from component array and components with colours that are undesired
--- Calculate the component array with the largest length
--- Return the length of the largest component
-
 -- Define types to ensure the code is more readable
 type Cell = (Int,Int)
 type Cells = [(Cell,Int)]
